@@ -1,0 +1,111 @@
+body {
+
+
+
+    background-image: url(https://images.unsplash.com/photo-1510936111840-65e151ad71bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1067&q=80);
+
+    background-size: cover;
+
+    background-position: center;
+    
+    color:peru;
+   
+}
+
+#icon{
+    color:peru;
+    background-color: peru;
+    border-radius: 50%;
+}
+
+#heading{
+    width: 500px;
+    margin: 0 auto;
+    /* padding-bottom: 10px; */
+}
+
+.manager_pic {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#manager{
+    
+    padding-top: 5px;
+    font-size: 30px;
+    
+}
+
+#income{
+    width: 800px;
+    margin: 0 auto;
+
+}
+.clear{
+    clear: left;
+}
+
+
+
+.left{
+    float: left;
+}
+
+label{
+    font-size: 20px;
+    padding:20px
+
+}
+/* .border{
+    border: 1px solid green;
+} */
+.grid{
+    display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 500px 100px;
+  grid-template-rows: auto auto; 
+  width: 800px;
+  margin:0 auto;
+}
+
+
+button{
+
+    padding: 10px 40px;
+    border-radius: 5px;
+    /* margin: 10px 50%; */
+    margin-top: 20px;
+    margin-left: 60px;
+    border: 0;
+}
+
+#reset:hover{
+    background-color: lightsalmon;
+}
+
+#reset:active{
+    background-color: plum;
+}
+
+#calculate:active{
+    background-color: plum;
+}
+
+
+
+
+input{
+
+    padding:5px 20px;
+    border-radius: 5px;
+
+
+}
+
+#result{
+    margin-left: 600px;
+    padding: 0 30px;
+    font-size: 30px;
+    /* border:1px white dashed; */
+}

@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>Expense Manager</title>
+
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+
+    <body>
+
+        <div class="border" id="heading">   
+            <div class="border manager_pic left">
+                <img class="manager_pic" id="icon" src="https://static.thenounproject.com/png/1803481-200.png" alt="Manager">
+            </div>
+
+            <div id="manager" class="border">
+            <h2>Expense Manager</h2>
+            </div>
+
+        </div>
+
+        <div class="border clear" id="income">
+            <h2>Income</h2>
+        </div>
+
+        <div class="border grid clear">
+            
+
+            <div>
+                <label for="salary">Salary</label>
+
+            </div>
+
+            <div>
+                <input type="text" min="1" placeholder="Enter your salary amount" name="salary" id="salary">
+
+            </div>
+
+            <div>
+                <label for="otherincome">Income from other sources</label>
+
+            </div>
+
+            <div>
+                <input type="text" min="1" placeholder="Enter other sources" name="otherincome" id="otherincome">
+
+            </div>
+
+        
+
+
+
+            <!-- Expenses -->   
+
+            <div><h2>Expenses</h2></div> 
+            <div></div>
+
+            <!-- <div class="border"> -->
+            <!-- Rent -->
+                <div>
+                    <label for="Rent">Rent </label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter rent expenses" name="rent" id="rent">
+
+                </div>
+
+                <!-- Food -->
+                <div>
+                    <label for="Food">Food</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter food expenses" name="food" id="food">
+
+                </div>
+
+                <!-- Groceris -->
+                <div>
+                    <label for="grocery ">Grocery</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter grocery expenses" name="grocery" id="grocery">
+
+                </div>
+
+                <!-- Transport -->
+
+                <div>
+                    <label for="transport">Transport</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter transport expenses" name="transport" id="transport">
+
+                </div>
+
+
+                <!-- Health -->
+
+                <div>
+                    <label for="health">Health</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter health expenses" name="health" id="health">
+
+                </div>
+
+
+                <!-- Shopping -->
+
+                <div>
+                    <label for="shopping">Shopping</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter shopping expenses" name="shopping" id="shopping">
+
+                </div>
+
+                <!-- Other Expenses -->
+
+                <div>
+                    <label for="otherexpenses">Other Expenses</label>
+
+                </div>
+
+                <div>
+                    <input type="text" min="1" placeholder="Enter other expenses" name="otherexpenses" id="otherexpenses">
+
+                </div>
+
+            <!-- </div> -->
+            <!-- Submit Button -->
+        </div>
+
+        <div class="grid border">
+            
+
+            <div>
+
+                <button id="reset" onclick="reset()">Reset</button>
+
+            </div>
+
+            <div >
+
+                <button id="calculate" onclick="submit()">Calculate</button>
+
+            </div>
+        
+        </div>
+        <!-- <hr> -->
+
+        <div class="left">
+
+            <div id="result" class="left border"></div>
+
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
